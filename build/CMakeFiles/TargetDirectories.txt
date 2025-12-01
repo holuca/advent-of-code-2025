@@ -1,0 +1,3 @@
+/home/luca/advent-of-code-2025/build/CMakeFiles/aoc.dir
+/home/luca/advent-of-code-2025/build/CMakeFiles/edit_cache.dir
+/home/luca/advent-of-code-2025/build/CMakeFiles/rebuild_cache.dir
