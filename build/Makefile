@@ -153,6 +153,30 @@ src/day01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/src/day01.cpp.s
 .PHONY : src/day01.cpp.s
 
+src/day02.o: src/day02.cpp.o
+.PHONY : src/day02.o
+
+# target to build an object file
+src/day02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/src/day02.cpp.o
+.PHONY : src/day02.cpp.o
+
+src/day02.i: src/day02.cpp.i
+.PHONY : src/day02.i
+
+# target to preprocess a source file
+src/day02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/src/day02.cpp.i
+.PHONY : src/day02.cpp.i
+
+src/day02.s: src/day02.cpp.s
+.PHONY : src/day02.s
+
+# target to generate assembly for a file
+src/day02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aoc.dir/build.make CMakeFiles/aoc.dir/src/day02.cpp.s
+.PHONY : src/day02.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/day01.o"
 	@echo "... src/day01.i"
 	@echo "... src/day01.s"
+	@echo "... src/day02.o"
+	@echo "... src/day02.i"
+	@echo "... src/day02.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

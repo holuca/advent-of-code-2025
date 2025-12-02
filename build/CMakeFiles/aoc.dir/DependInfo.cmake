@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/luca/advent-of-code-2025/src/day01.cpp" "CMakeFiles/aoc.dir/src/day01.cpp.o" "gcc" "CMakeFiles/aoc.dir/src/day01.cpp.o.d"
+  "/home/luca/advent-of-code-2025/src/day02.cpp" "CMakeFiles/aoc.dir/src/day02.cpp.o" "gcc" "CMakeFiles/aoc.dir/src/day02.cpp.o.d"
   "/home/luca/advent-of-code-2025/src/main.cpp" "CMakeFiles/aoc.dir/src/main.cpp.o" "gcc" "CMakeFiles/aoc.dir/src/main.cpp.o.d"
   "/home/luca/advent-of-code-2025/src/util.cpp" "CMakeFiles/aoc.dir/src/util.cpp.o" "gcc" "CMakeFiles/aoc.dir/src/util.cpp.o.d"
   )
