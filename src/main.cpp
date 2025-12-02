@@ -1,6 +1,6 @@
 #include <iostream>
 #include "day01.h"
-
+#include "day02.h"
 int main(int argc, char* argv[]){
     std::cout << "Advent of Code 2025\n";
     
@@ -14,8 +14,8 @@ int main(int argc, char* argv[]){
     {
         case 1: run_day01();
         break;
-        //case 2: run_day02();
-        //break;
+        case 2: run_day02();
+        break;
     default:
         std::cerr << "Unkown day\n";
     }

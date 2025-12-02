@@ -255,6 +255,7 @@ CMakeFiles/aoc.dir/src/day02.cpp.o: /home/luca/advent-of-code-2025/src/day02.cpp
   /usr/include/c++/13/bits/ranges_util.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algobase.h \
@@ -278,6 +279,7 @@ CMakeFiles/aoc.dir/src/day02.cpp.o: /home/luca/advent-of-code-2025/src/day02.cpp
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/concepts \
   /usr/include/c++/13/cstddef \
@@ -298,6 +300,8 @@ CMakeFiles/aoc.dir/src/day02.cpp.o: /home/luca/advent-of-code-2025/src/day02.cpp
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/math.h \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
   /usr/include/c++/13/ostream \
@@ -308,6 +312,18 @@ CMakeFiles/aoc.dir/src/day02.cpp.o: /home/luca/advent-of-code-2025/src/day02.cpp
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
@@ -319,6 +335,7 @@ CMakeFiles/aoc.dir/src/day02.cpp.o: /home/luca/advent-of-code-2025/src/day02.cpp
   /usr/include/features.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -336,9 +353,18 @@ CMakeFiles/aoc.dir/src/day02.cpp.o: /home/luca/advent-of-code-2025/src/day02.cpp
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -820,7 +846,27 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 
 /home/luca/advent-of-code-2025/src/util.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/usr/include/c++/13/tr1/legendre_function.tcc:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
 /usr/include/c++/13/sstream:
+
+/usr/include/c++/13/limits:
+
+/usr/include/c++/13/bits/specfun.h:
 
 /home/luca/advent-of-code-2025/src/day02.cpp:
 
@@ -836,6 +882,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
+/usr/include/c++/13/cmath:
+
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
@@ -843,6 +891,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -861,6 +911,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -924,6 +976,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 
 /usr/include/c++/13/debug/debug.h:
 
+/usr/include/c++/13/math.h:
+
 /usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
@@ -945,6 +999,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 /usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/c++/13/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
 
@@ -969,6 +1025,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/c++/13/bits/move.h:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -1002,6 +1060,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
 /usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/alloca.h:
@@ -1030,7 +1090,11 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 
 /home/luca/advent-of-code-2025/src/day01.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
 /usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/math.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
 
@@ -1088,15 +1152,21 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 
 /usr/include/c++/13/bits/ranges_base.h:
 
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 /usr/include/c++/13/istream:
 
 /usr/include/c++/13/string_view:
 
 /usr/include/features-time64.h:
 
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/tr1/special_function_util.h:
 
 /usr/include/stdc-predef.h:
 
@@ -1105,6 +1175,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/13/bits/std_abs.h:
 
@@ -1117,6 +1189,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 /usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/c++/13/tr1/beta_function.tcc:
 
 /usr/include/c++/13/bits/stl_function.h:
 
@@ -1162,6 +1236,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 
 /usr/include/errno.h:
 
+/usr/include/c++/13/tr1/gamma.tcc:
+
 /usr/include/c++/13/cctype:
 
 /usr/include/c++/13/ext/atomicity.h:
@@ -1177,6 +1253,8 @@ CMakeFiles/aoc.dir/src/util.cpp.o: /home/luca/advent-of-code-2025/src/util.cpp \
 /usr/include/c++/13/ext/alloc_traits.h:
 
 /usr/include/c++/13/new:
+
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 

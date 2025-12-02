@@ -7,5 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(aoc
     src/main.cpp
     src/day01.cpp
+    src/day02.cpp
     src/util.cpp
 )
