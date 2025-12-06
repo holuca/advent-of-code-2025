@@ -18,5 +18,15 @@ std::vector<std::string> read_lines(const std::string &path){
     return lines;
 }
 
+long long applyOp(long long a, char op, long long b){
+    switch (op)
+    {
+    case '*': return a * b;
+    case '+': return a + b;
+    default:
+        break;
+    } 
+    throw std::runtime_error("Invalid operator");
+}
 
 

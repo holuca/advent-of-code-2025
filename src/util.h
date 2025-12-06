@@ -11,3 +11,5 @@ struct Range{
     long long a;
     long long b;
 };
+
+long long applyOp(long long a, char op, long long b);
