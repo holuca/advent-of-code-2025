@@ -10,5 +10,6 @@ add_executable(aoc
     src/day02.cpp
     src/day03.cpp
     src/day04.cpp
+    src/day05.cpp
     src/util.cpp
 )
