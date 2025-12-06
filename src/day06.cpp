@@ -2,9 +2,11 @@
 #include "util.h"
 #include <iostream>
 #include <sstream>
-#include <math.h>
-#include <unordered_set>
 #include <algorithm>
+#include <stdexcept>
+#include <vector>
+#include <string>
+#include <cctype>
 
 
 /* PART 1
@@ -63,15 +65,7 @@ void run_day06(){
 
 //PART 2
 
-#include "day06.h"
-#include "util.h"
-#include <iostream>
-#include <sstream>
-#include <algorithm>
-#include <stdexcept>
-#include <vector>
-#include <string>
-#include <cctype>
+
 bool isSeparatorColumn(int c, const std::string &symbols, int rows, const std::vector<std::string> &num_lines) {
     if (symbols[c] != ' ') return false;
     for (int r = 0; r < rows; r++) {
@@ -80,10 +74,12 @@ bool isSeparatorColumn(int c, const std::string &symbols, int rows, const std::v
     return true;
 }
 
+
+
 void run_day06() {
     std::vector<std::string> lines = read_lines("../data/day06.txt");
 
-    // Pad to rectangle
+    // Pad to rectangle -> otherwise anoying to debug
     size_t maxw = 0;
     for (auto &s : lines) maxw = std::max(maxw, s.size());
     for (auto &s : lines) s.resize(maxw, ' ');
@@ -99,13 +95,12 @@ void run_day06() {
 
     while (c >= 0) {
 
-        // Skip separators
         while (c >= 0 && isSeparatorColumn(c, symbols, rows, num_lines))
             c--;
 
         if (c < 0) break;
 
-        // Identify full problem block
+
         int block_end = c;
         int block_start = c;
         while (block_start >= 0 && !isSeparatorColumn(block_start, symbols, rows, num_lines))
@@ -127,7 +122,7 @@ void run_day06() {
 
         char op = symbols[op_col];
 
-        // Collect vertical numbers (columns from block_start → block_end)
+        // Collect vertical numbers (columns from block_start -> block_end)
         std::vector<long long> numbers;
         for (int col = block_start; col <= block_end; col++) {
 
@@ -142,14 +137,12 @@ void run_day06() {
                 numbers.push_back(std::stoll(digits));
         }
 
-        // Apply operation
         long long value = numbers[0];
         for (int i = 1; i < numbers.size(); i++)
             value = applyOp(value, op, numbers[i]);
 
         total += value;
 
-        // Move left past this whole block
         c = block_start - 1;
     }
 

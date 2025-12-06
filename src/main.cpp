@@ -5,6 +5,7 @@
 #include "day04.h"
 #include "day05.h"
 #include "day06.h"
+#include "day07.h"
 int main(int argc, char* argv[]){
     std::cout << "Advent of Code 2025\n";
     
@@ -27,6 +28,8 @@ int main(int argc, char* argv[]){
         case 5 : run_day05();
         break;
         case 6 : run_day06();
+        break;
+        case 7 : run_day07();
         break;
 
     default:
