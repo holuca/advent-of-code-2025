@@ -6,6 +6,44 @@
 #include <unordered_set>
 #include <algorithm>
 
+
+
+void run_day07() {
+    std::vector<std::string> lines = read_lines("../data/day07.txt");
+
+    int rows = lines.size();
+    int cols = lines[0].size();
+
+    int s_pos = lines[0].find('S');
+
+    std::vector<long long> timelines(cols, 0);
+    timelines[s_pos] = 1;
+
+
+    for (int row = 1; row < rows; row++) {
+        std::vector<long long> next(cols, 0);
+
+        for (int c = 0; c < cols; c++) {
+            if (timelines[c] == 0) continue;
+            char cell = lines[row][c];
+            if (cell == '^') {
+                if (c > 0) next[c - 1] += timelines[c];
+                if (c < cols - 1) next[c + 1] += timelines[c];
+            } else {
+                next[c] += timelines[c];
+            }
+        }
+        timelines = next;
+    }
+
+    long long total_timelines = 0;
+    for (long long x : timelines) total_timelines += x;
+
+    std::cout << "Total timelines: " << total_timelines << "\n";
+}
+
+
+/* PART 1
 void run_day07() {
     std::vector<std::string> lines = read_lines("../data/day07.txt");
 
@@ -38,3 +76,6 @@ void run_day07() {
 
     std::cout << "Splits: " << splitCounter << "\n";
 }
+
+
+*/
