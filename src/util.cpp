@@ -29,4 +29,10 @@ long long applyOp(long long a, char op, long long b){
     throw std::runtime_error("Invalid operator");
 }
 
+double getDistance3D(const Point3D& a, const Point3D& b){
+    double d_x = b.x - a.x;
+    double d_y = b.y - a.y;
+    double d_z = b.z - a.z;
 
+    return std::sqrt(d_x*d_x + d_y*d_y + d_z*d_z);
+}
