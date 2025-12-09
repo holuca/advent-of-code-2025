@@ -31,6 +31,14 @@ struct Point3D{
 
 double getDistance3D(const Point3D& a, const Point3D& b);
 
+
+struct Coord2D{
+    int x;
+    int y;
+};
+
+long long getSurface(const Coord2D& c1, const Coord2D& c2);
+
 struct Edge{
     double dist;
     int a;

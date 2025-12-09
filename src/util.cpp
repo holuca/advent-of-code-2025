@@ -36,3 +36,9 @@ double getDistance3D(const Point3D& a, const Point3D& b){
 
     return std::sqrt(d_x*d_x + d_y*d_y + d_z*d_z);
 }
+
+long long getSurface(const Coord2D& c1, const Coord2D& c2) {
+    long long width  = std::llabs((long long)c1.x - (long long)c2.x) + 1;
+    long long height = std::llabs((long long)c1.y - (long long)c2.y) + 1;
+    return width * height;
+}
