@@ -8,6 +8,9 @@
 #include "day07.h"
 #include "day08.h"
 #include "day09.h"
+#include "day10.h"
+#include "day11.h"
+#include "day12.h"
 int main(int argc, char* argv[]){
     std::cout << "Advent of Code 2025\n";
     
@@ -36,6 +39,12 @@ int main(int argc, char* argv[]){
         case 8 : run_day08();
         break;
         case 9 : run_day09();
+        break;
+        case 10 : run_day10();
+        break;
+        case 11 : run_day11();
+        break;
+        case 12 : run_day12();
         break;
 
     default:
